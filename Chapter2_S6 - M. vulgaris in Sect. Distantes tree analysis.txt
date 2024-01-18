@@ -1,0 +1,145 @@
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 39 sequences with 574 nucleotide sites
+Number of constant sites: 285 (= 49.6516% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 285 (= 49.6516% of all sites)
+Number of parsimony informative sites: 193
+Number of distinct site patterns: 278
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+G4
+
+Rate parameter R:
+
+  A-C: 1.9865
+  A-G: 3.0898
+  A-T: 1.6302
+  C-G: 1.2456
+  C-T: 4.2402
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2617
+  pi(C) = 0.2772
+  pi(G) = 0.2367
+  pi(T) = 0.2244
+
+Rate matrix Q:
+
+  A   -0.9929    0.3318    0.4407    0.2204
+  C    0.3132    -1.064    0.1777    0.5733
+  G    0.4872     0.208   -0.8305    0.1352
+  T     0.257    0.7082    0.1426    -1.108
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.3231
+Gamma shape alpha: 1.232
+
+ Category  Relative_rate  Proportion
+  0         0              0.3231
+  1         0.267          0.1692
+  2         0.7931         0.1692
+  3         1.521          0.1692
+  4         3.328          0.1692
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -3688.0212 (s.e. 134.5691)
+Unconstrained log-likelihood (without tree): -2469.6561
+Number of free parameters (#branches + #model parameters): 81
+Akaike information criterion (AIC) score: 7538.0424
+Corrected Akaike information criterion (AICc) score: 7565.0424
+Bayesian information criterion (BIC) score: 7890.6054
+
+Total tree length (sum of branch lengths): 1.6906
+Sum of internal branch lengths: 0.6348 (37.5506% of tree length)
+
+WARNING: 9 near-zero internal branches (<0.0017) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Morchella_arbutiphila_CENTROID' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--Morchella_arbutiphila_CENTROID
+|
+|  +--Morchella_brunnea_CENTROID
++**| (0/86)
+|  |                 +--Morchella_confusa_CENTROID
+|  |              +**| (0/82)
+|  |              |  +**Morchella_angusticeps_CENTROID
+|  |           +--| (93.7/99)
+|  |           |  |  +**Morchella_eximioides_CENTROID
+|  |           |  +--| (81/98)
+|  |           |     +**JQ691469.1_Morchella_vulgaris_isolate_LE-180063
+|  |        +**| (0/14)
+|  |        |  |                        +---Morchella_iberica_CENTROID
+|  |        |  |                     +--| (83.5/97)
+|  |        |  |                     |  +--Morchella_semilibera_CENTROID
+|  |        |  +---------------------| (100/100)
+|  |        |                        |  +--Morchella_punctipes_CENTROID
+|  |        |                        +--| (94.1/99)
+|  |        |                           +---Morchella_populiphila_CENTROID
+|  |     +--| (73.9/28)
+|  |     |  |  +--Morchella_mediterraneensis_CENTROID
+|  |     |  +--| (80.5/82)
+|  |     |     +**Morchella_snyderi_CENTROID
+|  |  +--| (88.2/89)
+|  |  |  |  +--Morchella_disparilis_CENTROID
+|  |  |  +--| (35.9/21)
+|  |  |     |           +**Morchella_dunalii_CENTROID
+|  |  |     |        +**| (63.5/98)
+|  |  |     |        |  +**JQ691464.1_Morchella_vulgaris_isolate_HAI-D-022
+|  |  |     |     +--| (90.7/97)
+|  |  |     |     |  +--JQ691471.1_Morchella_vulgaris_isolate_HAI-D-043
+|  |  |     |  +--| (89.2/70)
+|  |  |     |  |  |       +-------------------------------Morchella_vulgaris_CENTROID
+|  |  |     |  |  +-------| (89.8/85)
+|  |  |     |  |          +--------------------------------------------Morchella_rufobrunnea_CENTROID
+|  |  |     +--| (92.8/34)
+|  |  |        |        +--Morchella_exuberans_CENTROID
+|  |  |        |     +**| (36.2/49)
+|  |  |        |     |  +-----Morchella_eximia_CENTROID
+|  |  |        |  +--| (95/31)
+|  |  |        |  |  |     +--Morchella_oweri_CENTROID
+|  |  |        |  |  |  +--| (79.4/31)
+|  |  |        |  |  |  |  |               +---------------------------Morchella_tomentosa_CENTROID
+|  |  |        |  |  |  |  +---------------| (100/98)
+|  |  |        |  |  |  |                  |                 +**Morchella_tridentina_CENTROID
+|  |  |        |  |  |  |                  |              +**| (0/68)
+|  |  |        |  |  |  |                  |              |  +**JQ691493.1_Morchella_vulgaris_isolate_HAI-D-076
+|  |  |        |  |  |  |                  |           +--| (79.5/88)
+|  |  |        |  |  |  |                  |           |  |  +--JQ691482.1_Morchella_vulgaris_isolate_HAI-C-1217
+|  |  |        |  |  |  |                  |           |  +--| (93.4/99)
+|  |  |        |  |  |  |                  |           |     +--KJ741329.1_Morchella_vulgaris_strain_MV-1
+|  |  |        |  |  |  |                  +-----------| (99.6/100)
+|  |  |        |  |  |  |                              +--Morchella_odonnellii_CENTROID
+|  |  |        |  |  +--| (74.4/30)
+|  |  |        |  |     |  +**Morchella_importuna_CENTROID
+|  |  |        |  |     +--| (93.6/99)
+|  |  |        |  |        +**JQ691465.1_Morchella_vulgaris_isolate_HAI-C-1058
+|  |  |        +--| (97.8/35)
+|  |  |           +--Morchella_sextelata_CENTROID
+|  +--| (29.8/68)
+|     |  +**Morchella_laurentiana_CENTROID
+|     +**| (0/88)
+|        |  +**Morchella_norvegiensis_CENTROID
+|        +--| (84.2/98)
+|           +--Morchella_purpurascens_CENTROID
+|
+|     +**Morchella_conifericola_CENTROID
+|  +**| (0/91)
+|  |  +**Morchella_pulchella_CENTROID
++--| (90.1/99)
+   |  +**Morchella_sp._Mel-24_CENTROID
+   +**| (0/82)
+      +**Morchella_deliciosa_CENTROID
+
+Tree in newick format:
+
+(Morchella_arbutiphila_CENTROID:0.0036009424,(Morchella_brunnea_CENTROID:0.0017563647,((((((Morchella_confusa_CENTROID:0.0017567390,Morchella_angusticeps_CENTROID:0.0000027166)0/82:0.0000023073,(Morchella_eximioides_CENTROID:0.0000026235,JQ691469.1_Morchella_vulgaris_isolate_LE-180063:0.0000027220)81/98:0.0017568198)93.7/99:0.0116695389,((Morchella_iberica_CENTROID:0.0373327110,Morchella_semilibera_CENTROID:0.0094955958)83.5/97:0.0114317964,(Morchella_punctipes_CENTROID:0.0162603916,Morchella_populiphila_CENTROID:0.0333448254)94.1/99:0.0228137237)100/100:0.1756517785)0/14:0.0006611625,(Morchella_mediterraneensis_CENTROID:0.0019811276,Morchella_snyderi_CENTROID:0.0015412110)80.5/82:0.0035701127)73.9/28:0.0023358864,(Morchella_disparilis_CENTROID:0.0233555594,((((Morchella_dunalii_CENTROID:0.0000027166,JQ691464.1_Morchella_vulgaris_isolate_HAI-D-022:0.0000027166)63.5/98:0.0011219157,JQ691471.1_Morchella_vulgaris_isolate_HAI-D-043:0.0062919826)90.7/97:0.0223846792,(Morchella_vulgaris_CENTROID:0.2518445289,Morchella_rufobrunnea_CENTROID:0.3495332136)89.8/85:0.0641675953)89.2/70:0.0215721554,(((Morchella_exuberans_CENTROID:0.0135263854,Morchella_eximia_CENTROID:0.0463282458)36.2/49:0.0006114017,((Morchella_oweri_CENTROID:0.0052837946,(Morchella_tomentosa_CENTROID:0.2181125336,(((Morchella_tridentina_CENTROID:0.0000027166,JQ691493.1_Morchella_vulgaris_isolate_HAI-D-076:0.0000027166)0/68:0.0000027418,(JQ691482.1_Morchella_vulgaris_isolate_HAI-C-1217:0.0022377769,KJ741329.1_Morchella_vulgaris_strain_MV-1:0.0037082394)93.4/99:0.0092221183)79.5/88:0.0059733558,Morchella_odonnellii_CENTROID:0.0035375630)99.6/100:0.0920250817)100/98:0.1282990246)79.4/31:0.0037426465,(Morchella_importuna_CENTROID:0.0000020295,JQ691465.1_Morchella_vulgaris_isolate_HAI-C-1058:0.0000027166)93.6/99:0.0054320989)74.4/30:0.0020752329)95/31:0.0129687313,Morchella_sextelata_CENTROID:0.0112795905)97.8/35:0.0177334796)92.8/34:0.0133016364)35.9/21:0.0040743351)88.2/89:0.0050035988,(Morchella_laurentiana_CENTROID:0.0000021418,(Morchella_norvegiensis_CENTROID:0.0000028355,Morchella_purpurascens_CENTROID:0.0017573076)84.2/98:0.0017661849)0/88:0.0000021468)29.8/68:0.0017564894)0/86:0.0000028563,((Morchella_conifericola_CENTROID:0.0000027166,Morchella_pulchella_CENTROID:0.0000027166)0/91:0.0000027167,(Morchella_sp._Mel-24_CENTROID:0.0000027166,Morchella_deliciosa_CENTROID:0.0000027166)0/82:0.0000027167)90.1/99:0.0035236800);
